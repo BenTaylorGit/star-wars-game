@@ -1,0 +1,24 @@
+/* TODO: ADD font-family: 'Star Jedi', arial; AS TITLE FONT */
+
+* {
+    font-family: sans-serif;
+}
+
+html {
+    margin: 0%;
+    padding: 0%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: cyan;
+  }
+
+  .flex-container > div {
+      text-align: center;
+      background-color: brown;
+      line-height: 50px;
+      width: 50px;
+      color: wheat;
+  }
