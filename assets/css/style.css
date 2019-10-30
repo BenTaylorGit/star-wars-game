@@ -14,30 +14,26 @@ html {
     background-size: cover;
 }
 
-.flex-container {
+
+  .flex-container > div {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
-    
-  }
-
-  .flex-container > div {
-      text-align: center;
-      background-color: brown;
-      height: 200px;
-      color: wheat;
-      margin: 10px;
-      align-content: center;
-      align-items: center;
-      width: 30%;
-      text-align: center;
-      flex-wrap: wrap;
+    text-align: center;
+    background-color: brown;
+    height: 200px;
+    width: 300px;
+    color: wheat;
+    margin: 10px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
   }
 
   #player-field {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      justify-content: flex-end;
   }
 
