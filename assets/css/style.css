@@ -1,0 +1,39 @@
+/* TODO: ADD font-family: 'Star Jedi', arial; AS TITLE FONT */
+
+* {
+    font-family: sans-serif;
+}
+
+html {
+    margin: 0%;
+    padding: 0%;
+    background: url("../imgs/bg.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+  .flex-container > div {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    text-align: center;
+    background-color: brown;
+    height: 200px;
+    width: 300px;
+    color: wheat;
+    margin: 10px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  #player-field {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+
